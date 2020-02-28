@@ -1,11 +1,10 @@
 import React from "react";
+import logo from "./logo.svg";
 
-const Headers = () => {
+const Images = () => {
     return(
-        <p>
-            Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={logo} className="App-logo" alt="logo" />
     );
 }
 
-export default Headers;
+export default Images;

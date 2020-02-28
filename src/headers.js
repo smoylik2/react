@@ -1,3 +1,5 @@
+import React from "react";
+
 const Headers = () => {
     return(
         <p>
@@ -5,3 +7,5 @@ const Headers = () => {
         </p>
     );
 }
+
+export default Headers;
