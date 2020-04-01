@@ -1,0 +1,106 @@
+.block {
+    padding: 4rem 0 3rem;
+    width: 100%;
+    display: flex;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: white;
+    background-color: #414C5C;
+    height: 37px;
+    width: 80px;
+    vertical-align: middle;
+    &:hover {
+        background-color: #3C599B;
+    }
+}
+
+.block input {
+    height: 37px;
+    width: 250px;
+    border: #C3CBD5 solid 1px;
+    font-size: small;
+    font-style: italic;
+    color: #C3CBD5;
+    padding-left: 0.5rem;
+        &:focus {
+    color: black;
+    outline: none;
+    font-style: normal;}
+}
+
+
+.block label {
+    font-size: smaller;
+    font-weight: 600;
+    text-align: right;
+    vertical-align: bottom;
+    color: #373737;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+@mixin sprite($position){
+    background-image: url("../../../image/joma-sprite.png");
+    background-position: $position;
+}
+
+.img {
+    width: 33px;
+    height: 33px;
+
+    &:first-child {
+        @include sprite(0px);
+        &:hover {
+            @include sprite(-33*6px);
+        }
+    }
+
+    &:nth-child(2) {
+        @include sprite(-33px);
+        &:hover {
+            @include sprite(-33*7px);
+        }
+    }
+
+    &:nth-child(3) {
+        @include sprite(-33*2px);
+        &:hover {
+            @include sprite(-33*8px);
+        }
+    }
+
+    &:nth-child(4) {
+        @include sprite(-33*3px);
+        &:hover {
+            @include sprite(-33*9px);
+        }
+    }
+
+    &:nth-child(5) {
+        @include sprite(-33*4px);
+        &:hover {
+            @include sprite(-33*10px);
+        }
+    }
+
+    &:nth-child(6) {
+        @include sprite(-33*5px);
+        &:hover {
+            @include sprite(-33*11px);
+        }
+    }
+}

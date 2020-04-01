@@ -1,0 +1,20 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    color: #C5C5C5;
+    margin: 0.5rem 0;
+    font-size: 0.67rem;
+}
+
+.links {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.href {
+    color: #C5C5C5;
+    text-decoration: none;
+    margin: 0 0 0 1rem;
+}

@@ -1,0 +1,46 @@
+.back {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.block {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    button {
+        background-color: rgba(255,255,255,0.01);
+        color: #909090;
+        border: none;
+        width: 30px;
+        padding: 0 0;
+        &:focus {
+            outline: none;
+        }
+        overflow: hidden;
+    }
+
+    .arrow {
+        height: 15px;
+        width: 15px;
+        border: #C5C5C5 solid 2px;
+        transform: rotate(45deg);
+        position: relative;
+        border-top: none;
+        border-right: none;
+        left: 5px;
+    }
+    .r_button {
+        .arrow {
+            border: #C5C5C5 solid 2px;
+            border-bottom: none;
+            border-left: none;
+            left: 10px;
+        }
+    }
+
+
+}
