@@ -1,0 +1,12 @@
+.block {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0;
+    select {
+        height: 2rem;
+        line-height: 2rem;
+    }
+}
+
