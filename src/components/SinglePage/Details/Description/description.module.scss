@@ -1,0 +1,49 @@
+.block {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #717070;
+
+  .section {
+    margin: 0 0 20px 20px;
+  }
+
+  .titles {
+    color: #414c5c;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .thead {
+    color: #414c5c;
+    border-bottom: #414c5c solid 1px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+  }
+
+  .firstCol {
+    width: 300px;
+    vertical-align: bottom;
+  }
+
+  .secondCol {
+    width: 200px;
+    vertical-align: bottom;
+  }
+
+  .thirdCol {
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+  .tline {
+    border-bottom: #C3CBD5 solid 1px;
+    height: 30px;
+    color: #414c5c;
+  }
+
+
+}

@@ -1,0 +1,23 @@
+.block {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #717070;
+  .section {
+    margin: 0 0 20px 20px;
+  }
+
+  .titles {
+    color: #414c5c;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .lists {
+    list-style: disc;
+    margin-left: 30px;
+  }
+
+}
